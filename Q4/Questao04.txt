@@ -1,0 +1,9 @@
+O PROPS DRILLING é um problema chato que acontece quando precisamos passar dados por vários componentes que não têm interesse neles. Isso complica o código e deixa tudo confuso.
+
+Para resolver isso, podemos usar Contextos. Eles são uma forma de compartilhar dados entre componentes sem precisar ficar passando eles pra lá e pra cá.
+
+Por exemplo, imaginemos três componentes: A, B e C. O componente A precisa passar um dado para o componente D, mas o B e o C não tem nada a ver com isso.
+
+Sem Contextos, teríamos que passar o dado pelo componente B e C como no exemplo superior.
+
+Já com Contextos, podemos passar o dado diretamente do componente A para o componente D, sem precisar passar pelo B e C.
